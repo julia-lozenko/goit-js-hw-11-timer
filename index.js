@@ -3,7 +3,7 @@ const refs = {
     hours: document.querySelector('.value[data-value="hours"]'),
     minutes: document.querySelector('.value[data-value="mins"]'),
     secs: document.querySelector('.value[data-value="secs"]'),
-    timerFace: document.getElementById("timer-1"),
+    timerFace: document.querySelector("#timer-1"),
 };
 
 class CountdownTimer {
